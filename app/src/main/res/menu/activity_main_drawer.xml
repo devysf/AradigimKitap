@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_kesfet"
+            android:icon="@mipmap/ic_explore_black_24dp"
+            android:title="Kesfet" />
+        <item
+            android:id="@+id/mesajlarim"
+            android:icon="@drawable/fui_ic_mail_white_24dp"
+            android:title="Mesajlarım" />
+    </group>
+
+    <item android:title="Teknik">
+        <menu>
+            <item
+                android:id="@+id/nav_ayarlar"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Ayarlar" />
+            <item
+                android:id="@+id/nav_kapat"
+                android:icon="@mipmap/ic_lock_outline_black_24dp"
+                android:title="Kapat" />
+        </menu>
+    </item>
+
+</menu>

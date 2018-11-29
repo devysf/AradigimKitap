@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yozacet.aradgimkitap.PaylasmaEkrani">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/kitapIsmiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="79dp"
+            android:ems="10"
+            android:hint="Kitabın ismini Giriniz"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/kitapYazarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/kitapIsmiTextView"
+            android:layout_below="@+id/kitapIsmiTextView"
+            android:layout_marginTop="33dp"
+            android:ems="10"
+            android:hint="Yazar Adini Giriniz"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageEkleButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/imageEkleView"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="36dp"
+            android:layout_toEndOf="@+id/progresBar"
+            app:srcCompat="@mipmap/ic_photo_library_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageEkleView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignStart="@+id/kitapYazarTextView"
+            android:layout_below="@+id/kitapYazarTextView"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <Button
+            android:id="@+id/kaydetButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/imageEkleView"
+            android:layout_marginBottom="18dp"
+            android:layout_marginStart="47dp"
+            android:onClick="onClick"
+            android:text="Kaydet" />
+
+        <ProgressBar
+            android:id="@+id/progresBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignTop="@+id/kitapIsmiTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/imageEkleButton"
+            android:layout_below="@+id/imageEkleButton"
+            android:layout_marginTop="13dp"
+            android:text="Foto Sec" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

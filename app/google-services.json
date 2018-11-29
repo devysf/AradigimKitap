@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "635872903246",
+    "firebase_url": "https://aradigimkitap-b46ca.firebaseio.com",
+    "project_id": "aradigimkitap-b46ca",
+    "storage_bucket": "aradigimkitap-b46ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635872903246:android:256bc111b82bdd2b",
+        "android_client_info": {
+          "package_name": "com.example.yozacet.aradgimkitap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635872903246-sj8mbnrb54png9bqn9sjudfcv5kfctkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yozacet.aradgimkitap",
+            "certificate_hash": "4d55ef97147013ee1ae51644c713539b20cf5ea5"
+          }
+        },
+        {
+          "client_id": "635872903246-tq291o0nolfeiv0tslcoloauh1oct5nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKxMWCHYULrKIQ7ekUvi00ibVdLaUVbXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635872903246-tq291o0nolfeiv0tslcoloauh1oct5nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

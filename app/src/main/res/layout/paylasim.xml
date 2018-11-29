@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/kitapResmiPaylasım"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:padding="10dp"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_light" />
+
+        <TextView
+            android:id="@+id/kitapIsmiPaylasım"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Kitap İsmi" />
+
+        <TextView
+            android:id="@+id/yazarIsmiPaylasım"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/kitapResmiPaylasım"
+            android:layout_alignStart="@+id/kitapIsmiPaylasım"
+            android:layout_marginBottom="32dp"
+            android:text="Yazar" />
+
+        <TextView
+            android:id="@+id/kAdiPaylasim"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/kitapResmiPaylasım"
+            android:layout_alignStart="@+id/yazarIsmiPaylasım"
+            android:text="Kullanici Adi" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
